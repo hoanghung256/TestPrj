@@ -15,12 +15,13 @@ public class App {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int sum = 0;
+        int mul = 0;
         for (int i = 0; i < 100; i++) {
-            sum += i;
+            mul *= i;
         }
         
-        System.out.println("Sum from 1 to 100 is " + sum);
+        System.out.println("Sum from 1 to 100 is " + mul);
+        
     }
     
 }
